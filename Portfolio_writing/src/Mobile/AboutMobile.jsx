@@ -62,13 +62,13 @@ const AboutMobile = () => {
           <h2>{displayedDescription}<Cursor>|</Cursor></h2>
           <p>Crafting authentic gambling content is my specialty. I deliver comprehensive casino and sportsbook reviews while efficiently multitasking. Using Grammarly and ZeroGPT, I ensure my work remains AI-free, providing readers with trustworthy, expert iGaming insights.</p>
 
+          <BoxContainer>
+
+            <BoxDisplay/>
+
+          </BoxContainer>
+
         </TitleAndDescription>
-
-        <BoxContainer>
-
-          <BoxDisplay/>
-
-        </BoxContainer>
 
         <What>
 
@@ -113,7 +113,7 @@ const AboutWrapper = styled.div`
   justify-content: start;
   align-items: center;
 
-  height: 100vh;
+  height: fit-content;
 
 `
 
@@ -127,10 +127,11 @@ const TandB = styled.div`
   justify-content: start;
   align-items: center;
 
-  margin-top: 1vh;
-
-  height: 92vh;
+  height: fit-content;
   width: 78%;
+
+  margin-top: 10px;
+  margin-bottom: 15px;
 
 `
 
@@ -141,14 +142,12 @@ const TitleAndDescription = styled.div`
 
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
 
-  height: 29vh;
+  height: 385px;
 
-  margin-bottom: 2vh;
-
-  border: 1px red solid;
+  margin-bottom: 10px;
 
   h2{
     color: white;
@@ -157,13 +156,7 @@ const TitleAndDescription = styled.div`
     padding: 0px;
     box-sizing: border-box;
 
-    height: 20%;
-
-    margin-bottom: 2%;
-
     font-size: 22px;
-
-    border: 1px red solid;
 
   }
 
@@ -175,12 +168,9 @@ const TitleAndDescription = styled.div`
     
     text-align: center;
 
-    height: 78%;
-    line-height: 170%;
+    line-height: 25px;
 
     font-size: 14px;
-
-    border: 1px white solid;
 
   }
 
@@ -189,8 +179,6 @@ const TitleAndDescription = styled.div`
 const BoxContainer = styled.div`
   width: 100%;
   height: fit-content;
-
-  margin-bottom: 2vh;
 
 `
 
@@ -204,7 +192,7 @@ const What = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  height: 38.5vh;
+  height: 310px;
 
   h3{
     color: white;

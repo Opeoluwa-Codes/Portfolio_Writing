@@ -66,7 +66,7 @@ const Description = styled.div`
 
   color: #cccccc;
 
-  line-height: 20px;
+  line-height: 25px;
 
   text-align: left;
 
