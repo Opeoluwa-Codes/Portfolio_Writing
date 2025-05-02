@@ -180,11 +180,10 @@ const Experience = styled.div`
   scroll-behavior: smooth;
   scrollbar-width: thin;
 
+  scrollbar-color: white black;
+
   padding-bottom: 7%;
   box-sizing: border-box;
-
-  scrollbar-color: white;
-
 
 `
 

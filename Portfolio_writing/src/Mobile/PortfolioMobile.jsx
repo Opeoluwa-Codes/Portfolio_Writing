@@ -320,6 +320,8 @@ const PortfolioDisplay = styled.div`
   scrollbar-color: white;
   scrollbar-width: thin;
 
+  scrollbar-color: white black;
+
   box-sizing: border-box;
 
   display: grid;
