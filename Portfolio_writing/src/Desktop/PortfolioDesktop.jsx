@@ -8,10 +8,12 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 import PortfolioItem from "../Components/Reusable/PortfolioItem"
 
+import one from '../../src/Assets/PNG/888 Casino Review.png'
+
 
 const portfolioItems = [
 
-  { id: 1, type: 'Casino', img: '../../src/Assets/PNG/888 Casino Review.png', alt: '888 Casino Review', title: '888 Casino Review', description: 'The 888 casino has over 25 years of excellence in the gambling industry. The award-winning gaming site has...', demolink: 'https://drive.google.com/file/d/17T4-ntKyA1eA1ocJwdCe8lUMjYKgZNpX/view?usp=drive_link'},
+  { id: 1, type: 'Casino', img: one, alt: '888 Casino Review', title: '888 Casino Review', description: 'The 888 casino has over 25 years of excellence in the gambling industry. The award-winning gaming site has...', demolink: 'https://drive.google.com/file/d/17T4-ntKyA1eA1ocJwdCe8lUMjYKgZNpX/view?usp=drive_link'},
 
   { id: 2, type: 'Casino', img: '../../src/Assets/PNG/Bet365 Review.png', alt: 'Bet365 Review', title: 'Bet365 Review', description: 'Are you tired of the Bet365 browser site? Switch to the mobile-adaptable and easy-to-use Bet365 application...', demolink: 'https://drive.google.com/file/d/19DzgNBjy5rAjMJQjTCQwlSn3VGGufNyV/view?usp=drive_link'},
 
