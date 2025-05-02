@@ -176,7 +176,7 @@ const Experience = styled.div`
   
   gap: 1.5%;
 
-  overflow-x: scroll;
+  overflow-x: visible;
   scroll-behavior: smooth;
   scrollbar-width: thin;
 

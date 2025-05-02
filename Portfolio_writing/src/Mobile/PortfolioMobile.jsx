@@ -313,7 +313,7 @@ const PortfolioDisplay = styled.div`
   width: 70%; 
   max-height: 75%;
 
-  overflow-y: scroll;
+  overflow-y: visible;
   overflow-x: hidden;
   
   scroll-behavior: smooth;
