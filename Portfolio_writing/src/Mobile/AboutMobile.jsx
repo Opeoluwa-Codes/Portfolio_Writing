@@ -145,7 +145,7 @@ const TitleAndDescription = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  height: 385px;
+  height: 365px;
 
   margin-bottom: 10px;
 
