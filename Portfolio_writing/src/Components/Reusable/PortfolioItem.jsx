@@ -37,7 +37,7 @@ const PortfolioItem = (props) => {
                 <h2>{props.title}</h2>
                 <p>{props.description}</p>
 
-                <a href={props.demolink} target='blank' className='a1'>Read</a>
+                <a href={props.demolink} target='blank' className='a1'>Read More</a>
               </Information>
 
             </BoxContent>
