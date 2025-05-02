@@ -130,7 +130,7 @@ const TandB = styled.div`
   height: fit-content;
   width: 78%;
 
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 15px;
 
 `
@@ -145,7 +145,7 @@ const TitleAndDescription = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  height: 365px;
+  height: 360px;
 
   margin-bottom: 10px;
 
