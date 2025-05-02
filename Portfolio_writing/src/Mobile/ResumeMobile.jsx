@@ -183,7 +183,7 @@ const Experience = styled.div`
   padding-bottom: 7%;
   box-sizing: border-box;
 
-  scrollbar-color: black;
+  scrollbar-color: white;
 
 
 `

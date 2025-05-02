@@ -317,7 +317,7 @@ const PortfolioDisplay = styled.div`
   overflow-x: hidden;
   
   scroll-behavior: smooth;
-  scrollbar-color: black;
+  scrollbar-color: white;
   scrollbar-width: thin;
 
   box-sizing: border-box;
