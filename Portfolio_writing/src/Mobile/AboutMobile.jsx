@@ -157,9 +157,11 @@ const TitleAndDescription = styled.div`
     padding: 0px;
     box-sizing: border-box;
 
-    margin-bottom: 8px;
+    margin-bottom: 1vh;
 
     font-size: 22px;
+
+    border: 1px red solid;
 
   }
 
@@ -171,9 +173,12 @@ const TitleAndDescription = styled.div`
     
     text-align: center;
 
-    line-height: 25px;
+    height: 90%;
+    line-height: 3.4vh;
 
     font-size: 14px;
+
+    border: 1px white solid;
 
   }
 
