@@ -66,7 +66,11 @@ const AboutMobile = () => {
 
         <BoxAndWhat>
 
-          <BoxDisplay/>
+          <BoxContainer>
+
+            <BoxDisplay/>
+
+          </BoxContainer>
 
           <What>
 
@@ -102,122 +106,122 @@ const Cursor = styled.span`
 `;
 
 const AboutWrapper = styled.div`
-  height: 100vh;
+  background: black;
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 
   display: flex;
   flex-direction: column;
+  justify-content: start;
   align-items: center;
-  justify-content: center;
 
-  box-sizing: border-box;
-
-  padding-left: 0%;
-  padding-bottom: 20px;
-
-  background-color: black;
-
-  border: none;
-
-  position: relative;
+  height: 100vh;
 
 `
 
 const TandB = styled.div`
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 
   display: flex;
   flex-direction: column;
+  justify-content: start;
   align-items: center;
 
-  width: 89.5%;
-  height: 90%;
+  margin-top: 15px;
 
-  gap: 1%;
-
-  margin-top: 5%;
+  height: 95%;
 
 `
 
 const TitleAndDescription = styled.div`
-  height: 30%;
-  width: 83%;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 
   display: flex;
   flex-direction: column;
-  align-items: start;
+  justify-content: start;
+  align-items: center;
 
-  box-sizing: border-box;
+  height: fit-content;
+
+  margin-bottom: 10px;
 
   h2{
-    width: 100%;
-    height: 25px;
-
-    font-size: 18px;
-    font-weight: 600;
     color: white;
 
-    margin-bottom: 5%;
-    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 
-    text-align: center;
+    margin-bottom: 8px;
 
-
+    font-size: 22px;
 
   }
 
-  p{
-    width: 100%;
-    height: fit-content;
-
-    font-size: 14px;
-    font-weight: 200;
-    color: #cccccc;
-
+  P{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
     text-align: center;
 
-    line-height: 23px;
+    line-height: 25px;
 
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-size: 16px;
 
   }
 
 `
 
 const BoxAndWhat = styled.div`
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
 
-  gap: 5%;
+  height: fit-content;
 
-  width: 83%;
-  height: 65%;
+`
 
-  box-sizing: border-box;
+const BoxContainer = styled.div`
+  width: 100%;
+  height: 180px;
+
+  margin-bottom: 10px;
 
 `
 
 const What = styled.div`
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
 
-  box-sizing: border-box;
-
-  width: 100%;
-  height: 100%;
-
-  gap: 10px;
+  height: 300px;
 
   h3{
-    font-size: 20px;
-    font-weight: 700;
     color: white;
-    
-    margin-top: 0px;
-    margin-bottom: 5px;
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-size: 20px;
 
   }
 
