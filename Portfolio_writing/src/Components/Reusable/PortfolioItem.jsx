@@ -37,7 +37,7 @@ const PortfolioItem = (props) => {
                 <h2>{props.title}</h2>
                 <p>{props.description}</p>
 
-                <a href={props.demolink} target='blank' className='a1'>Read More</a>
+                <a href={props.demolink} target='blank' className='a1'>Read</a>
               </Information>
 
             </BoxContent>
@@ -245,7 +245,7 @@ const Information = styled.div`
   align-items: center;
 
   height: 50vh;
-
+  
   @media (max-width: 914px) {
     width: 78%;
 
@@ -274,7 +274,7 @@ const Information = styled.div`
 
     color: #cccccc;
 
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 
     width: 70%;
 
@@ -285,7 +285,7 @@ const Information = styled.div`
 
     padding: 10px;
 
-    margin-bottom: 6%;
+    margin-bottom: 1%;
 
     text-decoration: none;
 
