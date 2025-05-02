@@ -64,24 +64,20 @@ const AboutMobile = () => {
 
         </TitleAndDescription>
 
-        <BoxAndWhat>
+        <BoxContainer>
 
-          <BoxContainer>
+          <BoxDisplay/>
 
-            <BoxDisplay/>
+        </BoxContainer>
 
-          </BoxContainer>
+        <What>
 
-          <What>
-
-            <h3>What I Do!</h3>
-            <WhatIDo icons={<Verified/>} title="Factual and Unbiased Reviews" description="I deliver honest platform assessments backed by verified data without promotional bias."/>
-            <WhatIDo icons={<Journey/>} title="Detailed UX Analysis" description="I evaluate interfaces, functionality, and user journeys from a player's perspective, highlighting strengths and weaknesses."/>
-            <WhatIDo icons={<Optimize/>} title="Strategic Keyword Optimization" description="I seamlessly integrate targeted search terms while maintaining natural readability."/>
-            
-          </What>
-
-        </BoxAndWhat>
+          <h3>What I Do!</h3>
+          <WhatIDo icons={<Verified/>} title="Factual and Unbiased Reviews" description="I deliver honest platform assessments backed by verified data without promotional bias."/>
+          <WhatIDo icons={<Journey/>} title="Detailed UX Analysis" description="I evaluate interfaces, functionality, and user journeys from a player's perspective, highlighting strengths and weaknesses."/>
+          <WhatIDo icons={<Optimize/>} title="Strategic Keyword Optimization" description="I seamlessly integrate targeted search terms while maintaining natural readability."/>
+          
+        </What>
         
       </TandB>
 
@@ -134,6 +130,7 @@ const TandB = styled.div`
   margin-top: 1vh;
 
   height: 92vh;
+  width: 78%;
 
 `
 
@@ -147,10 +144,9 @@ const TitleAndDescription = styled.div`
   justify-content: start;
   align-items: center;
 
-  height: 30vh;
-  width: 78%;
+  height: 29vh;
 
-  margin-bottom: 1vh;
+  margin-bottom: 2vh;
 
   h2{
     color: white;
@@ -178,21 +174,6 @@ const TitleAndDescription = styled.div`
     font-size: 14px;
 
   }
-
-`
-
-const BoxAndWhat = styled.div`
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-
-  height: 64vh;
-  width: 78%;
 
 `
 
