@@ -147,7 +147,7 @@ const TitleAndDescription = styled.div`
   justify-content: start;
   align-items: center;
 
-  height: 29vh;
+  height: 25vh;
   width: 78%;
 
   margin-bottom: 10px;
@@ -175,7 +175,7 @@ const TitleAndDescription = styled.div`
 
     line-height: 25px;
 
-    font-size: 16px;
+    font-size: 14px;
 
   }
 
@@ -191,7 +191,7 @@ const BoxAndWhat = styled.div`
   justify-content: start;
   align-items: center;
 
-  height: 60vh;
+  height: 65vh;
   width: 78%;
 
 `
@@ -214,7 +214,7 @@ const What = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  height: 39vh;
+  height: 38vh;
 
   h3{
     color: white;
