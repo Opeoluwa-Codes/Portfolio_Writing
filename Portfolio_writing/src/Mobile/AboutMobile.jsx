@@ -133,7 +133,7 @@ const TandB = styled.div`
 
   margin-top: 15px;
 
-  height: 95%;
+  height: 92vh;
 
 `
 
@@ -147,7 +147,8 @@ const TitleAndDescription = styled.div`
   justify-content: start;
   align-items: center;
 
-  height: fit-content;
+  height: 29vh;
+  width: 78%;
 
   margin-bottom: 10px;
 
@@ -190,13 +191,14 @@ const BoxAndWhat = styled.div`
   justify-content: start;
   align-items: center;
 
-  height: fit-content;
+  height: 60vh;
+  width: 78%;
 
 `
 
 const BoxContainer = styled.div`
   width: 100%;
-  height: 180px;
+  height: fit-content;
 
   margin-bottom: 10px;
 
@@ -212,7 +214,7 @@ const What = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  height: 300px;
+  height: 39vh;
 
   h3{
     color: white;
