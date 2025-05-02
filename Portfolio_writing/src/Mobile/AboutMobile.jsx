@@ -148,6 +148,8 @@ const TitleAndDescription = styled.div`
 
   margin-bottom: 2vh;
 
+  border: 1px red solid;
+
   h2{
     color: white;
 
