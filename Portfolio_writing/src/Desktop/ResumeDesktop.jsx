@@ -26,7 +26,7 @@ const ResumeDesktop = () => {
               <Experience>
 
                 <Cover>
-                  <ResumeDisplay name='CasinoAlpha' title='IGaming Content Writer' view='Ireland'/>
+                  <ResumeDisplay name='CASINOALPHA' title='IGaming Content Writer' view='Ireland'/>
                   <DialogueBox from='From: 2024' to='To: April 2025' one='1. I wrote promotional content for the CasinoAlpha brand.' two='2. I optimised written content with keywords using the Contandu tool.' three='3. I used backlinks leading back to the CasinoAlpha website.'/>
                 </Cover>
 
