@@ -16,7 +16,7 @@ const ResumeMobile = () => {
             <h2>EDUCATION</h2>
               <Education>
 
-                <ResumeDisplay name='Canadore College' title='Project Management - IT' description='' view='View' here='resume' link='https://drive.google.com/file/d/1d4ueAUJnxCdbTJ90ml2JrAFA0hxqheUi/view?usp=drive_link'/>
+                <ResumeDisplay name='Canadore College' title='Project Management - IT' description='' view='View' here='resume' link='https://drive.google.com/file/d/1zKXc3wzCHMl7r0vSlZ0JX0KTDYoYzZEa/view?usp=drive_link'/>
 
               </Education>
           </One>
