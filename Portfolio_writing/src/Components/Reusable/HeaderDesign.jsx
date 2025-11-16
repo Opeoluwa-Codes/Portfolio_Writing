@@ -1,4 +1,4 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
 import styled from 'styled-components';
 
 const HeaderDesign = (props) => {
@@ -20,6 +20,7 @@ const HeaderDesignWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
   margin-bottom: 20px;
   box-sizing: border-box;

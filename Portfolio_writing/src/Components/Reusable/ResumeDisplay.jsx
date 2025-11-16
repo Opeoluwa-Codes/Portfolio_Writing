@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
+import 'react'
 import styled from 'styled-components';
 
 const ResumeDisplay = (props) => {

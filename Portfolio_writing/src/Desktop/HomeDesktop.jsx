@@ -1,8 +1,7 @@
-import React, {useState, useEffect} from 'react'
+import {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom';
 import {styled} from 'styled-components';
 import Picture from '../Assets/JPG/Picture.jpeg'
-
 
 
 const HomeDesktop = () => {
@@ -64,7 +63,7 @@ const HomeDesktop = () => {
 
         <Others>
           <img src={Picture} alt="Opeoluwa" />
-          <RoleDisplay>Expert iGaming Writer</RoleDisplay>
+          <RoleDisplay>Ghostwriter and Editor</RoleDisplay>
           <p>As a lead iGaming specialist, I craft authentic, AI-free casino and sportsbook reviews. I deliver trustworthy evaluations that help readers navigate gambling platforms with confidence, backed by genuine industry knowledge and firsthand experience.</p>
           <Links to='/about'><button>MORE ABOUT ME</button></Links>
         </Others>

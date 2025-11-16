@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
+import 'react'
 import { useState } from 'react'
 import { MdClose } from "react-icons/md";
 import styled from 'styled-components';

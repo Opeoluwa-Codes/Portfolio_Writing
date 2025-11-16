@@ -1,4 +1,4 @@
-import React from 'react'
+import 'react'
 import styled from 'styled-components';
 
 const BoxDisplay = () => {
@@ -7,13 +7,13 @@ const BoxDisplay = () => {
       <LeftBox>
         <TopLeftBox>
           <InnerX>
-            <Stat>3+</Stat>
+            <Stat>4+</Stat>
             <Label>Years of Experience</Label>
           </InnerX>
         </TopLeftBox>
         <BottomLeftBox>
           <InnerY1>
-            <Stat>99.9%</Stat>
+            <Stat>99.99%</Stat>
             <Label>Task Completion</Label>
           </InnerY1>
         </BottomLeftBox>
@@ -28,7 +28,7 @@ const BoxDisplay = () => {
         </TopRightBox>
         <BottomRightBox>
           <InnerZ>
-            <Stat>20+</Stat>
+            <Stat>30+</Stat>
             <Label>Clients Satisfied</Label>
           </InnerZ>
         </BottomRightBox>

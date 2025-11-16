@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import  { useState, useEffect } from 'react'
 import styled from 'styled-components';
 import { Link, useLocation } from 'react-router-dom';
 import useWindowSize from '../Hooks/UseWindowSize';
@@ -9,7 +9,7 @@ import { IoMdBriefcase } from "react-icons/io";
 import { GoFileSubmodule } from "react-icons/go";
 import { GiTalk } from "react-icons/gi";
 import { PiDotsThreeVerticalBold } from "react-icons/pi";
-import { VscTools } from "react-icons/vsc";
+
 
 const SideIcons = () => {
   const location = useLocation();
@@ -198,22 +198,6 @@ const Home = styled(IoMdHome)`
   }
 `
 
-const ToolStack = styled(VscTools)`
-  font-size: 18px;
-  color: white;
-  transition: all 1s ease-in-out;
-
-  color: ${props => props.active ? '#c0c0c0a0' : 'white'};
-
-  &:hover{
-    color: #c0c0c0a0;
-    transform: scale(1.2);
-  }
-
-  @media (max-width: 596px) {
-    font-size: 15px;
-  }
-`
 const About = styled(FaRegUser)`
   font-size: 18px;
   color: white;

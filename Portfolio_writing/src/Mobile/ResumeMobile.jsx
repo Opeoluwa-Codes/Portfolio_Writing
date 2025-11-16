@@ -1,4 +1,4 @@
-import React from 'react'
+import 'react'
 import styled from 'styled-components';
 import HeaderDesign from '../Components/Reusable/HeaderDesign';
 import ResumeDisplay from '../Components/Reusable/ResumeDisplay'
@@ -16,7 +16,7 @@ const ResumeMobile = () => {
             <h2>EDUCATION</h2>
               <Education>
 
-                <ResumeDisplay name='Canadore College' title='Project Management - IT' description='' view='View' here='resume' link='https://drive.google.com/file/d/1vMq7Awo6kQ2qsVcuV-LwfK5Iwh-avZrg/view?usp=drive_link'/>
+                <ResumeDisplay name='Canadore College' title='Project Management - IT' description='' view='View' here='resume' link='https://drive.google.com/file/d/1ViigYNWITjRGH_KrhqVPF1aD7VsdydXK/view?usp=sharing'/>
 
               </Education>
           </One>

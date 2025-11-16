@@ -1,4 +1,4 @@
-import React from 'react'
+import 'react'
 import styled from 'styled-components';
 import HeaderDesign from '../Components/Reusable/HeaderDesign';
 import ContactTile from '../Components/Reusable/ContactTile';

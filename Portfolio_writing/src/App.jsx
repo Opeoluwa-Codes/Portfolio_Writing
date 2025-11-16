@@ -1,8 +1,8 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import useWindowSize from './Hooks/UseWindowSize'
 
-import styled from 'styled-components'
+import 'styled-components'
 
 import AboutDesktop from './Desktop/AboutDesktop'
 import ContactDesktop from './Desktop/ContactDesktop'
@@ -16,7 +16,7 @@ import Mobile from './Mobile/Mobile'
 
 import Layout from './Hooks/Layout'
 
-import { px } from 'framer-motion'
+
 
 const App = () => {
 

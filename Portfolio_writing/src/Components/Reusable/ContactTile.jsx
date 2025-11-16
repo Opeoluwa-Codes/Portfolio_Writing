@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
+import 'react'
 import styled from 'styled-components';
 
 const ContactTile = (props) => {
@@ -8,19 +9,19 @@ const ContactTile = (props) => {
     switch (props.type) {
 
       case 'phone':
-        const cleanPhone = props.info.replace(/\D/g, '');
+        { const cleanPhone = props.info.replace(/\D/g, '');
         window.location.href = `tel:${cleanPhone}`;
-        break;
+        break; }
 
       case 'email':
-        const emailAddress = props.info.trim();
+        { const emailAddress = props.info.trim();
         window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${emailAddress}`;
-        break;
+        break; }
 
       case 'twitter':
-        const username = props.info.startsWith('@') ? props.info.substring(1) : props.info;
+        { const username = props.info.startsWith('@') ? props.info.substring(1) : props.info;
         window.location.href = `https://x.com/${username}`;
-        break;
+        break; }
 
       default:
         console.log('No redirect type specified');
