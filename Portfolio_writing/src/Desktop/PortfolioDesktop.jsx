@@ -137,7 +137,7 @@ const PortfolioDesktop = () => {
 
     <PortfolioWrapper>
 
-      <HeaderDesign title='MARKET-BASED WORKS'/>
+      <HeaderDesign title='WRITTEN SAMPLES'/>
 
       <Buttons>
 
