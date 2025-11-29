@@ -13,7 +13,7 @@ const ResumeDisplay = (props) => {
       </SchoolorJobTitle>
       <Certification>
         {props.view}       
-        <a href={props.link} target={props.target} download={props.download}>{props.here}</a>
+        <a href={props.link} target='_blank'>{props.here}</a>
       </Certification>
     </ResumeDisplayWrapper>
   );
