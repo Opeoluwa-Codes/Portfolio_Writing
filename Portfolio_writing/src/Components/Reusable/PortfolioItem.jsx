@@ -37,7 +37,7 @@ const PortfolioItem = (props) => {
                 <h2>{props.title}</h2>
                 <p>{props.description}</p>
 
-                <a href={props.demolink} target='blank' className='a1'>Read More</a>
+                <a href={props.demolink} target='_blank' className='a1'>Read More</a>
               </Information>
 
             </BoxContent>
@@ -258,10 +258,8 @@ const Information = styled.div`
     font-weight: 800;
 
     margin-top: 0px;
-
-    @media (max-width: 500px){
-      text-align: center;
-    }
+    
+    text-align: center;
 
   }
 

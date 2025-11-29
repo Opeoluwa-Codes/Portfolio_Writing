@@ -63,8 +63,8 @@ const HomeDesktop = () => {
 
         <Others>
           <img src={Picture} alt="Opeoluwa" />
-          <RoleDisplay>Ghostwriter and Editor</RoleDisplay>
-          <p>As a lead iGaming specialist, I craft authentic, AI-free casino and sportsbook reviews. I deliver trustworthy evaluations that help readers navigate gambling platforms with confidence, backed by genuine industry knowledge and firsthand experience.</p>
+          <RoleDisplay>Writer and Editor</RoleDisplay>
+          <p>I create expert iGaming reviews covering sportsbooks, casinos, games, and providers, plus engaging content on travel, sports, gaming, and cryptocurrency—blending technical expertise with storytelling to inform and captivate diverse audiences.</p>
           <Links to='/about'><button>MORE ABOUT ME</button></Links>
         </Others>
       </LeftSide>
@@ -348,7 +348,7 @@ const RoleDisplay = styled.div`
 const SecondBox = styled.div`
   
   width: 180px;
-  height: 230px;
+  height: 180px;
 
   background-color: black;
 
@@ -368,16 +368,6 @@ const SecondBox = styled.div`
       transform: scale(1.5);
     }
 
-  }
-
-  @media (max-width: 995px) {
-    width: 200px;
-    height: 250px;
-  }
-
-  @media (max-width: 894px) {
-    width: 150px;
-    height: 200px;
   }
 
   @media (max-width: 615px) {

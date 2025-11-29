@@ -61,8 +61,8 @@ const HomeMobile = () => {
 
         <Others>
           <img src={Picture} alt="Opeoluwa" />
-          <RoleDisplay>Ghostwriter and Editor</RoleDisplay>
-          <p>As a lead iGaming specialist, I craft authentic, AI-free casino and sportsbook reviews. I deliver trustworthy evaluations that help readers navigate gambling platforms with confidence, backed by genuine industry knowledge and firsthand experience.</p>
+          <RoleDisplay>Writer and Editor</RoleDisplay>
+          <p>I create expert iGaming reviews covering sportsbooks, casinos, games, and providers, plus engaging content on travel, sports, gaming, and cryptocurrency—blending technical expertise with storytelling to inform and captivate diverse audiences.</p>
           <StyledAnchor href='#about'><button>MORE ABOUT ME</button></StyledAnchor>
         </Others>
 
@@ -91,8 +91,8 @@ const HomeWrapper = styled.div`
 
   img{
 
-    width: 150px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 
     margin-bottom: 15px;
 

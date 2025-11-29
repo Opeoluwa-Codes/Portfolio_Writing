@@ -4,7 +4,6 @@ import HeaderDesign from '../Components/Reusable/HeaderDesign';
 import ContactTile from '../Components/Reusable/ContactTile';
 
 import { CgMail } from "react-icons/cg";
-import { FaXTwitter } from "react-icons/fa6";
 import { IoCallOutline } from "react-icons/io5";
 
 const ContactMobile = () => {
@@ -17,7 +16,9 @@ const ContactMobile = () => {
 
         <Display>
           <ContactTile icon={<Call/>} info="(+1) 683-882-1123" type="phone"/>
-          <ContactTile icon={<Twitter/>} info="@Happy_2_Code" type="twitter"/>
+          
+          {/* <ContactTile icon={<Twitter/>} info="@Happy_2_Code" type="twitter"/> */}
+
           <ContactTile icon={<Gmail/>} info="opewrites24@gmail.com" type="email"/>
         </Display>
 
@@ -98,16 +99,5 @@ const Gmail = styled(CgMail)`
     color: #c0c0c0a0;
   }
   
-`
-const Twitter = styled(FaXTwitter)`
-  font-size: 50px;
-  color: white;
-
-  width: 100%;
-  height: 100%;
-
-  &:hover{
-    color: #c0c0c0a0;
-  }
   
 `

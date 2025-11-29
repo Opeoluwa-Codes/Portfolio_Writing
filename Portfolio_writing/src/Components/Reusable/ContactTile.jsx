@@ -18,10 +18,10 @@ const ContactTile = (props) => {
         window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${emailAddress}`;
         break; }
 
-      case 'twitter':
-        { const username = props.info.startsWith('@') ? props.info.substring(1) : props.info;
-        window.location.href = `https://x.com/${username}`;
-        break; }
+      // case 'twitter':
+      //   { const username = props.info.startsWith('@') ? props.info.substring(1) : props.info;
+      //   window.location.href = `https://x.com/${username}`;
+      //   break; }
 
       default:
         console.log('No redirect type specified');

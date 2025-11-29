@@ -16,7 +16,7 @@ const ResumeDesktop = () => {
             <h2>EDUCATION</h2>
               <Education>
 
-                <ResumeDisplay name='Canadore College' title='Journalism' description='' view='View' here='resume' link='https://drive.google.com/file/d/1ViigYNWITjRGH_KrhqVPF1aD7VsdydXK/view?usp=sharing'/>
+                <ResumeDisplay name='Canadore College' title='Journalism' description='' view='View' here='resume' link='https://drive.google.com/file/d/142i-zPuJIJivkfzFRb-l_zEavu_nUiVH/view?usp=sharing'/>
 
               </Education>
           </One>
