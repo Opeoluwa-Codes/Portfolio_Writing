@@ -17,14 +17,14 @@ import six from '../../src/Assets/ART/6.jpg'
 
 import seven from '../../src/Assets/ART/7.png'
 import eight from '../../src/Assets/ART/8.png'
-import nine from '../../src/Assets/ART/9.wepb'
+import nine from '../../src/Assets/ART/9.jpg'
 import ten from '../../src/Assets/ART/10.jpg'
-import eleven from '../../src/Assets/ART/11.wepb'
+import eleven from '../../src/Assets/ART/11.jpg'
 import twelve from '../../src/Assets/ART/12.png'
 
 import thirteen from '../../src/Assets/ART/13.png'
 import fourteen from '../../src/Assets/ART/14.jpg'
-import fifteen from '../../src/Assets/ART/15.webp'
+import fifteen from '../../src/Assets/ART/15.jpg'
 import sixteen from '../../src/Assets/ART/16.jpg'
 import seventeen from '../../src/Assets/ART/17.png'
 import eighten from '../../src/Assets/ART/18.jpg'
@@ -38,11 +38,10 @@ import twentyfour from '../../src/Assets/ART/24.jpg'
 
 import twentyfive from '../../src/Assets/ART/25.jpg'
 import twentysix from '../../src/Assets/ART/26.jpg'
-import twentyseven from '../../src/Assets/ART/27.wepb'
+import twentyseven from '../../src/Assets/ART/27.png'
 import twentyeight from '../../src/Assets/ART/28.jpg'
 import twentynine from '../../src/Assets/ART/29.png'
 import thirty from '../../src/Assets/ART/30.jpg'
-
 
 const portfolioItems = [
 
