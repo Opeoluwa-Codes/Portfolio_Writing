@@ -1,4 +1,5 @@
 import 'react'
+import { Analytics } from '@vercel/analytics/react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import useWindowSize from './Hooks/UseWindowSize'
 
@@ -51,10 +52,11 @@ const App = () => {
         }
 
       </BrowserRouter>
+
+      <Analytics />
+
     </div>    
   );
 };
 
 export default App;
-
-
