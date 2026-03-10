@@ -16,7 +16,7 @@ const ResumeDesktop = () => {
             <h2>EDUCATION</h2>
               <Education>
 
-                <ResumeDisplay name='Canadore College' title='Journalism' description='' view='View' here='resume' link='https://drive.google.com/file/d/142i-zPuJIJivkfzFRb-l_zEavu_nUiVH/view?usp=sharing'/>
+                <ResumeDisplay name='Canadore College' title='Journalism' description='' view='View' here='resume' link='https://drive.google.com/file/d/1d6aJjifmBZqabap5FjDeu4mcyDeFffus/view?usp=drive_link'/>
 
               </Education>
           </One>
@@ -26,28 +26,13 @@ const ResumeDesktop = () => {
               <Experience>
 
                 <Cover>
-                  <ResumeDisplay name='CASINOALPHA' title='IGaming Content Writer' view='Ireland'/>
-                  <DialogueBox from='From: 2024' to='To: April 2025' one='1. I wrote promotional content for the CasinoAlpha brand.' two='2. I optimised written content with keywords using the Contandu tool.' three='3. I used backlinks leading back to the CasinoAlpha website.'/>
+                  <ResumeDisplay name='Extremoo' title='Remote Freelance Writer (Independent Contractor)' view='Romania'/>
+                  <DialogueBox from='From: Mar 2026' to='To: Present' one='1. Write and edit iGaming content including reviews and guides for CasinoAlpha' two='2. Produce SEO-optimized casino articles across multiple markets' three='3. Maintain editorial standards for accuracy, tone, and compliance with regional gambling regulations'/>
                 </Cover>
 
                 <Cover>
-                  <ResumeDisplay name='NOT-ON-GAMSTOP.COM' title='IGaming Content Writer' view='United Kingdom'/>
-                  <DialogueBox from='From: 2024' to='To: February 2025' one='1. I reviewed several UK online casino brands.' two='2. I conducted detailed research to provide fair reviews.'/>
-                </Cover>
-
-                <Cover>
-                  <ResumeDisplay name='PUGU CONTENT LTD' title='IGaming Content Writer' view='Virgin Islands'/>
-                  <DialogueBox from='From: 2024' to='To: January 2025' one='1. I reviewed top casino and sportsbook brands.' two='2. I ensured each article was unique and concise yet compelling.'/>
-                </Cover>
-
-                <Cover>
-                  <ResumeDisplay name='AFREKO MEDIA LTD' title='IGaming Content Writer' view='Belgrade, Serbia'/>
-                  <DialogueBox from='From: 2024' to='To: January 2025' one='I wrote several iGaming review content.' two='I optimised my content using keywords, LSIs, and backlinks.'/>
-                </Cover>
-
-                <Cover>
-                  <ResumeDisplay name='SISTERSITE.CO.UK' title='IGaming Content Writer' view='United Kingdom'/>
-                  <DialogueBox from='From: 2024' to='To: January 2025' one='I wrote lengthy reviews, up to 5000 words, on top casino brands.'/>
+                  <ResumeDisplay name='Remote - Worldwide' title='Freelance Writer' view='Remote'/>
+                  <DialogueBox from='From: April 2021' to='To: Present' one='1. Deliver high-quality blog posts, reviews, guides, and editorial content for international clients across multiple niches, including iGaming, Sports & MMA, Food & Lifestyle, Travel, Home & DIY, News, and Cryptocurrency' two='2. Consistently maintain 5-star client satisfaction through clear communication, fast turnarounds, and research-driven writing' three='3. Adapt tone, style, and SEO approach to match each client`s brand voice and audience'/>
                 </Cover>
 
               </Experience>
