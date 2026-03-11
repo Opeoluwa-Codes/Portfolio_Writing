@@ -11,7 +11,7 @@ import PortfolioItem from '../Components/Reusable/PortfolioItem';
 import one from '../../src/Assets/ART/1.png'
 import two from '../../src/Assets/ART/2.png'
 import three from '../../src/Assets/ART/3.png'
-import four from '../../src/Assets/ART/4.jpeg'
+import four from '../../src/Assets/ART/4.png'
 import five from '../../src/Assets/ART/5.png'
 import six from '../../src/Assets/ART/6.png'
 
