@@ -8,78 +8,117 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 import PortfolioItem from "../Components/Reusable/PortfolioItem"
 
-import one from '../../src/Assets/ART/1.jpg'
-import two from '../../src/Assets/ART/2.jpg'
+import one from '../../src/Assets/ART/1.png'
+import two from '../../src/Assets/ART/2.png'
 import three from '../../src/Assets/ART/3.png'
 import four from '../../src/Assets/ART/4.jpeg'
-import five from '../../src/Assets/ART/5.jpg'
-import six from '../../src/Assets/ART/6.jpg'
+import five from '../../src/Assets/ART/5.png'
+import six from '../../src/Assets/ART/6.png'
 
 import seven from '../../src/Assets/ART/7.png'
 import eight from '../../src/Assets/ART/8.png'
-import nine from '../../src/Assets/ART/9.jpg'
-import ten from '../../src/Assets/ART/10.jpg'
-import eleven from '../../src/Assets/ART/11.jpg'
+import nine from '../../src/Assets/ART/9.png'
+import ten from '../../src/Assets/ART/10.png'
+import eleven from '../../src/Assets/ART/11.png'
 import twelve from '../../src/Assets/ART/12.png'
 
 import thirteen from '../../src/Assets/ART/13.png'
-import fourteen from '../../src/Assets/ART/14.jpg'
-import fifteen from '../../src/Assets/ART/15.jpg'
-import sixteen from '../../src/Assets/ART/16.jpg'
+import fourteen from '../../src/Assets/ART/14.png'
+import fifteen from '../../src/Assets/ART/15.png'
+import sixteen from '../../src/Assets/ART/16.png'
 import seventeen from '../../src/Assets/ART/17.png'
-import eighten from '../../src/Assets/ART/18.jpg'
+import eighteen from '../../src/Assets/ART/18.png'
 
-import nineteen from '../../src/Assets/ART/19.jpg'
-import twenty from '../../src/Assets/ART/20.jpg'
+import nineteen from '../../src/Assets/ART/19.png'
+import twenty from '../../src/Assets/ART/20.png'
 import twentyone from '../../src/Assets/ART/21.png'
-import twentytwo from '../../src/Assets/ART/22.jpg'
+import twentytwo from '../../src/Assets/ART/22.png'
 import twentythree from '../../src/Assets/ART/23.png'
-import twentyfour from '../../src/Assets/ART/24.jpg'
+import twentyfour from '../../src/Assets/ART/24.png'
 
-import twentyfive from '../../src/Assets/ART/25.jpg'
-import twentysix from '../../src/Assets/ART/26.jpg'
+import twentyfive from '../../src/Assets/ART/25.png'
+import twentysix from '../../src/Assets/ART/26.png'
 import twentyseven from '../../src/Assets/ART/27.png'
-import twentyeight from '../../src/Assets/ART/28.jpg'
+import twentyeight from '../../src/Assets/ART/28.png'
 import twentynine from '../../src/Assets/ART/29.png'
-import thirty from '../../src/Assets/ART/30.jpg'
+import thirty from '../../src/Assets/ART/30.png'
 
 const portfolioItems = [
 
-  { id: 1, type: 'Casino', img: one, alt: 'Big Time Gaming Review', title: 'Big Time Gaming Review', description: 'Big Time Gaming specialises solely in slot games...', demolink: 'https://drive.google.com/file/d/1-NjLHPCMncCY2vFswucQAm5F_Eokf9jI/view?usp=sharing'},
-  { id: 2, type: 'Sportsbook', img: two, alt: '22Bet Bonuses Nigeria Review', title: '22Bet Bonuses Nigeria Review', description: 'The 22Bet casino is licensed for operation in Nigeria by the National Lottery Regulatory Commission...', demolink: 'https://drive.google.com/file/d/14c2dqIZk8STes3v0JI4fqlzNToRdkLlO/view?usp=sharing'},
-  { id: 3, type: 'eSports', img: three, alt: 'Betting on Esports vs. Traditional Sports', title: 'Betting on Esports vs. Traditional Sports', description: 'Esports are essentially gaming events...', demolink: 'https://drive.google.com/file/d/1He4HnQ2IcLzBjhlMiaGYxAPqaDrxN2KK/view?usp=sharing'},
-  { id: 4, type: 'Football', img: four, alt: 'Champions League Prediction_Quater Final Round 2025', title: 'Champions League Prediction_Quater Final Round 2025', description: 'For some, it took ruthlessness; for others, it took perseverance to make it to the final-8 of the...', demolink: 'https://drive.google.com/file/d/1HrPNrzBqQqiY1_UUbKseXEShsXk5hWbm/view?usp=sharing'},
-  { id: 5, type: 'Crypto', img: five, alt: 'Best Crypto Casino You Can Use', title: 'Best Crypto Casino You Can Use', description: 'It is now rampant on the internet for people to make money from the crypto...', demolink: 'https://drive.google.com/file/d/1UtjVVZtmoljpTjMstPWeKvsMk-eSFxw8/view?usp=sharing'},
-  { id: 6, type: 'Blog', img: six, alt: 'Best Countries To Visit In Africa', title: 'Best Countries To Visit In Africa', description: 'One time or the other, we must have heard how terrible Africa is; we sometimes...', demolink: 'https://drive.google.com/file/d/1FqOn7YfGz8maMyJpbjlzJ8K9QnLPUdNJ/view?usp=sharing'},
+  { id: 1, type: 'iGaming', img: one, alt: 'Jackpot City Canada', title: 'Jackpot City Ontario Casino: Is This Online Casino Licensed to Operate in Ontario?', description: 'A comprehensive guide to understanding the licensing landscape for online casinos in Ontario.', demolink: 'https://drive.google.com/file/d/1gPfJbNNC7MB6cbtScR19CwhKidoM3SHg/view?usp=sharing'},
+  
+  { id: 2, type: 'iGaming', img: two, alt: '22Bet', title: '22BET INDIA PLATFORM INTRO', description: 'An introduction to the 22Bet platform in the Indian market.', demolink: 'https://drive.google.com/file/d/1bLnciBge1MlIRxUVlRNhinwVor4dW0Mj/view?usp=sharing'},
+  
+  { id: 3, type: 'iGaming', img: three, alt: 'Bet365', title: 'Bet365 Registration ', description: 'A step-by-step guide to registering for a Bet365 account.', demolink: 'https://drive.google.com/file/d/1TG49OMEb82PthsT4S5Cz3SO-aST8mYNK/view?usp=sharing'},
+  
+  { id: 4, type: 'iGaming', img: four, alt: 'Olympus Rivals', title: 'Olympus Rivals Slot by Amigo Gaming', description: 'A detailed overview of the Olympus Rivals slot game by Amigo Gaming.', demolink: 'https://drive.google.com/file/d/1vZe_ZDQ4xaynZIZDlkDR6OiCeFkYlJ87/view?usp=sharing'},
+  
+  { id: 5, type: 'iGaming', img: five, alt: 'Casino Bonus', title: 'Daily Casino Bonus', description: 'Information about daily bonuses available at various online casinos.', demolink: 'https://drive.google.com/file/d/1-vJ6AEYDoEH7SThnuEtXvMW2TdqumEef/view?usp=sharing'},
+  
+  { id: 6, type: 'iGaming', img: six, alt: 'Casino Payment Method', title: 'Regional Payment Method Preferences: How Casinos Adapt to Local Markets', description: 'An analysis of how different regions prefer various payment methods for online casinos.', demolink: 'https://drive.google.com/file/d/16DMOD6bdKfsFLOBzVAF0pAbelJL8Dew8/view?usp=sharing'},
 
-  { id: 7, type: 'Casino', img: seven, alt: 'CasinoChan App Review', title: 'CasinoChan App Review', description: 'Rather than rely on the available desktop version of the CasinoChan platform...', demolink: 'https://drive.google.com/file/d/11KeXd393hjLdrTr58mZwdKrEQLN7R4f1/view?usp=sharing'},
-  { id: 8, type: 'Sportsbook', img: eight, alt: 'Bet9ja vs RocketPlay', title: 'Bet9ja vs RocketPlay', description: 'Our article is based on the comparison of two leading betting platforms...', demolink: 'https://drive.google.com/file/d/1tfNXAgYKGPKgaKys3wrWcs6qCacnRILc/view?usp=sharing'},
-  { id: 9, type: 'eSports', img: nine, alt: 'The Inter-relations Between Video Gaming and Gambling', title: 'The Inter-relations Between Video Gaming and Gambling', description: 'In recent times, we have seen the world of video gaming and gambling becoming more...', demolink: 'https://drive.google.com/file/d/1MRR4LUjlx1BpmQaruj3CNjE5hBM00_ad/view?usp=sharing'},
-  { id: 10, type: 'Football', img: ten, alt: 'Dortmund vs. Barcelona', title: 'Dortmund vs. Barcelona', description: 'The Blaugranas couldnt have had it any easier against Dortmund the last time they faced off...', demolink: 'https://drive.google.com/file/d/1eBggjFU6lCtgb80tC1QbTKdMA7lUtl3T/view?usp=sharing'},
-  { id: 11, type: 'Crypto', img: eleven, alt: 'CashFi Token ($CFI): The Best Crypto Purchase to Make in 2022', title: 'CashFi Token ($CFI): The Best Crypto Purchase to Make in 2022', description: 'The CashFi platform allows interested parties to access all of its assets and...', demolink: 'https://drive.google.com/file/d/1dia7sEuMQ3W8bvcRUGEKtsz-vf5xqFUm/view?usp=sharing'},
-  { id: 12, type: 'Blog', img: twelve, alt: '', title: 'Steve will do its net worth - Whats Steve really worth', description: 'Including all Steve will do with its properties and assets, Steve’s net worth is estimated to be...', demolink: 'https://drive.google.com/file/d/1RMbTOiGCkFW0iwwvsL4OgDavETs_i9EW/view?usp=sharing'},
+  { id: 7, type: 'iGaming', img: seven, alt: '22Bet', title: '22Bet App: Introduction', description: 'A guide to using the 22Bet mobile app.', demolink: 'https://drive.google.com/file/d/1TRRsS4i9-3-47njzfchru14H7VAKMRGx/view?usp=sharing'},
 
-  { id: 13, type: 'Casino', img: thirteen, alt: 'Jackpot City Casino Ontario Review', title: 'Jackpot City Casino Ontario Review', description: 'Jackpot City casino is one of the most reliable online gaming destinations...', demolink: 'https://drive.google.com/file/d/1UWt2e9FIfqWb7V-je7Q54HGpul87HKDu/view?usp=sharing'},
-  { id: 14, type: 'Sportsbook', img: fourteen, alt: 'Bet365 Registration', title: 'Bet365 Registration', description: 'To enjoy the features and benefits of bet365, one has to register on the platform first...', demolink: 'https://drive.google.com/file/d/1Hs0tMqbDFH0aeqY6taL7nyESAd4JlLUL/view?usp=sharing'},
-  { id: 15, type: 'eSports', img: fifteen, alt: 'Top-5 Cyber Sports Tournaments to Bet on in 2025', title: 'Top-5 Cyber Sports Tournaments to Bet on in 2025', description: 'These are video game competitions in which individuals or teams face off against...', demolink: 'https://drive.google.com/file/d/1GJMFQmRiVpKXzG4_RPOskwAQte_2lJdh/view?usp=sharing'},
-  { id: 16, type: 'Football', img: sixteen, alt: 'Europes Finest_ Must-Watch Teams in the 2024_25 Champions League', title: 'Europes Finest_ Must-Watch Teams in the 2024_25 Champions League', description: 'The upcoming UEFA Champions League season promises to be one of the most thrilling yet...', demolink: 'https://drive.google.com/file/d/16ou82_QMLFAnzS88tVabjMuEVFRwlbEw/view?usp=sharing'},
-  { id: 17, type: 'Crypto', img: seventeen, alt: 'HachiFi (HACH), Binance (BNB) - Potentially One of the Few Notable Sparks of Excellence in the Crypto-world', title: 'HachiFi (HACH), Binance (BNB) - Potentially One of the Few Notable Sparks of Excellence in the Crypto-world', description: 'There is the creation of opportunistic events within DeFi, Non-Fungible Tokens...', demolink: 'https://drive.google.com/file/d/1qiEh4k7A5HFdoyKm-SEJifm_038Lw_SI/view?usp=sharing'},
-  { id: 18, type: 'Blog', img: eighten, alt: 'Top 5 unusual facts about UFC', title: 'Top 5 unusual facts about UFC', description: 'UFC has come a long way since its inception and has made giant strides forward in...', demolink: 'https://drive.google.com/file/d/1MbkdZwit9EQofdwJ2orjfgwYTV-i5GZ2/view?usp=sharing'},
+  { id: 8, type: 'iGaming', img: eight, alt: 'iGaming Auditors', title: 'Third-Party Auditors in Online Gaming', description: 'An overview of the role of third-party auditors in ensuring fairness and compliance in online gaming.', demolink: 'https://drive.google.com/file/d/1Nb3uZf4hA6LZyIGZtYd_6ieQC9sJ23Gt/view?usp=sharing'},
 
-  { id: 19, type: 'Casino', img: nineteen, alt: 'Olympus Rivals Slot by Amigo Gaming Review', title: 'Olympus Rivals Slot by Amigo Gaming Review', description: 'The Olympus Rivals casino slot is an ethereal-themed masterpiece released by...', demolink: 'https://drive.google.com/file/d/1qwyLrVGqpbO0lTc-NhNjdvWSq8pO59Po/view?usp=sharing'},
-  { id: 20, type: 'Sportsbook', img: twenty, alt: 'How to Download and Install the Bet365 Application', title: 'How to Download and Install the Bet365 Application', description: 'Are you looking for a user-friendly gambling app? Look no further than the Bet365 mobile app...', demolink: 'https://drive.google.com/file/d/1H3U9sj2GgIT0V5UCfVYSp7aFMIQHu1p-/view?usp=sharing'},
-  { id: 21, type: 'eSports', img: twentyone, alt: 'What is eSports Betting?', title: 'What is eSports Betting?', description: 'The esports industry has grown spectacularly over the years...', demolink: 'https://drive.google.com/file/d/1bHPqq71WJw2_cHQfBQ7dQebbfe-350Jy/view?usp=sharing'},
-  { id: 22, type: 'Football', img: twentytwo, alt: 'Tactical Adjustments_ How Pep Guardiola Might Replace Rodri After His Injury', title: 'Tactical Adjustments_ How Pep Guardiola Might Replace Rodri After His Injury', description: 'Recent discussions in European media have highlighted the challenge Pep Guardiola will face...', demolink: 'https://drive.google.com/file/d/1Mq3Zjxzjn33wJ76PIfXF5uBK8q-5HrtF/view?usp=sharing'},
-  { id: 23, type: 'Crypto', img: twentythree, alt: 'Runfy (RUNF) and Solana (SOL) are Bound to Takeover the Crypto-space Before the End of 2022', title: 'Runfy (RUNF) and Solana (SOL) are Bound to Takeover the Crypto-space Before the End of 2022', description: 'Runfy (RUNF) aids the integration of the fitness industry into the crypto world...', demolink: 'https://drive.google.com/file/d/1aWSoxnWB5HQt8rY8079ykxC952_UVU3y/view?usp=sharing'},
-  { id: 24, type: 'Blog', img: twentyfour, alt: 'Traveling around UK_Pros and Cons', title: 'Traveling around UK_Pros and Cons', description: 'Along with every other aspect of a humans life journey, there are a good number of...', demolink: 'https://drive.google.com/file/d/1oJICLR2azPrJTxgpPkwo-HmwQSEODXtd/view?usp=sharing'},
 
-  { id: 25, type: 'Casino', img: twentyfive, alt: 'Woo Casino Bonus Reviews', title: 'Woo Casino Bonus Reviews', description: 'The variety of offers partly determines how versatile an online gambling platform is...', demolink: 'https://drive.google.com/file/d/1rtdgPetllZSLJUGwqLSmMGPqMURvmB1-/view?usp=sharing'},
-  { id: 26, type: 'Sportsbook', img: twentysix, alt: 'Tonybet UK Review', title: 'Tonybet UK Review', description: 'The United Kingdom Gambling Commission regulates the TonyBet sportsbook...', demolink: 'https://drive.google.com/file/d/1qNlR3e2hX6DmHyhOBj14o2JG5Le1bEmj/view?usp=sharing'},
-  { id: 27, type: 'eSports', img: twentyseven, alt: 'Why More Traditional Sports Bettors Are Switching to Esports', title: 'Why More Traditional Sports Bettors Are Switching to Esports', description: 'Typical sports selections on bookmakers, including football and basketball...', demolink: 'https://drive.google.com/file/d/1diiuT5rTvZoQA_YBi_grwy5v48f538Hi/view?usp=sharing'},
-  { id: 28, type: 'Football', img: twentyeight, alt: 'Top 5 - The Craziest Football Victorites Ever', title: 'Top 5 - The Craziest Football Victorites Ever', description: 'There are certainly a ton of crazy football wins that have been witnessed in football...', demolink: 'https://drive.google.com/file/d/1tmF9oLgxKTiNyjonUaDqkT8aBduPpdQW/view?usp=sharing'},
-  { id: 29, type: 'Crypto', img: twentynine, alt: 'Top 5 Platforms for Cryptocurrency Trading', title: 'Top 5 Platforms for Cryptocurrency Trading', description: 'Cryptocurrency is all that is on the rage in the tech and business world today...', demolink: 'https://drive.google.com/file/d/1sRfoqT496iLYx24MYdphCAWDyQv-5j_c/view?usp=sharing'},
-  { id: 30, type: 'Blog', img: thirty, alt: 'Ubisoft modern video games peculiarities', title: 'Ubisoft modern video games peculiarities', description: 'There are lots of popular video gaming software in the world today...', demolink: 'https://drive.google.com/file/d/128qSq7ouI3jiMVUZSJecZ7ZVZo0Fihef/view?usp=sharing'},
+
+  { id: 9, type: 'iGaming', img: nine, alt: 'eSports', title: 'WHAT IS ESPORTS BETTING?', description: 'A comprehensive guide to understanding esports betting', demolink: 'https://drive.google.com/file/d/1gKc7F4P8VjalrZ7wVyJhVvIaRfu_drVM/view?usp=sharing'},
+
+  { id: 10, type: 'iGaming', img: ten, alt: 'eSports vs Traditional Sports', title: 'Betting on Esports vs. Traditional Sports', description: 'A detailed comparison of betting options in esports and traditional sports', demolink: 'https://drive.google.com/file/d/1K-pDZeDxnW6EfytofN1YHGV9MA3aKNbz/view?usp=sharing'},
+  
+  { id: 11, type: 'iGaming', img: eleven, alt: 'Cyber Sports Tournaments', title: 'Top-5 Cyber Sports Tournaments to Bet on in 2025', description: 'An overview of the most anticipated cyber sports tournaments for the upcoming year', demolink: 'https://drive.google.com/file/d/1uKzD-3CDekYVPPJf9ST5N3F-DkGyf4iR/view?usp=sharing'},
+
+  
+
+  { id: 12, type: 'Sports', img: twelve, alt: 'Euro 2024', title: 'Group Stage Shockers: Teams Primed to Upset the Euro 2024 Favourites', description: 'A comprehensive guide to understanding the group stage dynamics in Euro 2024', demolink: 'https://drive.google.com/file/d/13HjNSPZ5HXt6SlclD8fMHCwt7So9Hhay/view?usp=sharing'},
+
+  { id: 13, type: 'Sports', img: thirteen, alt: 'Football Victories', title: 'Top 5 the Craziest Football Victories Ever ', description: 'A look at some of the most surprising and incredible football victories in history', demolink: 'https://drive.google.com/file/d/1X5UBstQeLVnPqtiREg419bhJWT8WvfuA/view?usp=sharing'},
+
+  { id: 14, type: 'Sports', img: fourteen, alt: 'Football Coaches', title: 'The Top 19 Richest Football Coaches in the World', description: 'An overview of the wealthiest football coaches globally', demolink: 'https://drive.google.com/file/d/1CVy546E7Ou5MHqr0Yl15MiBlWMkJcCrP/view?usp=sharing'},
+
+  { id: 15, type: 'Sports', img: fifteen, alt: 'Football Clubs', title: 'Top 20 Richest Football Clubs in the World ', description: 'An overview of the wealthiest football clubs globally', demolink: 'https://drive.google.com/file/d/1vOUULus2T1udSHowNRIjYqv6bn9-tWYZ/view?usp=sharing'},
+
+
+  
+  { id: 16, type: 'UFC & MMA', img: sixteen, alt: 'Denny vs Cash', title: 'Denny vs Cash Prediction: A Clash of the Experienced and Undefeated', description: 'A detailed analysis of the upcoming fight between Denny and Cash.', demolink: 'https://drive.google.com/file/d/1Ngcnhhouv08-PpWWzXN6t8sPlYeGL2UU/view?usp=sharing'},
+
+  { id: 17, type: 'UFC & MMA', img: seventeen, alt: 'UFC', title: 'Top 5 unusual facts about UFC', description: 'Discover some lesser-known details about the Ultimate Fighting Championship.', demolink: 'https://drive.google.com/file/d/1epSshC3XzitAaWL0GzgLocwjBDs5PCaB/view?usp=sharing'},
+
+  { id: 18, type: 'UFC & MMA', img: eighteen, alt: 'MMA', title: 'Top 10 Successful MMA Fighters ', description: 'A look at the most successful mixed martial artists in history.', demolink: 'https://drive.google.com/file/d/19voo5IvYSzZJ5ZStB8ugzp-3Aua73eaW/view?usp=sharing'},
+
+
+
+  { id: 19, type: 'Lifestyle', img: nineteen, alt: 'Digital Renaissance', title: 'The Digital Renaissance of Indian Folktales', description: 'An exploration of how digital technology is revitalizing traditional Indian folktales.', demolink: 'https://drive.google.com/file/d/10ZTO6VHfmubpOB2FwseclGhLLe-F2KbS/view?usp=sharing'},
+
+  { id: 20, type: 'Lifestyle', img: twenty, alt: 'Online Forums', title: 'Digital Gatherings: How Online Forums are Redefining Social Bonds ', description: 'A study on the impact of online forums on social connections and community building.', demolink: 'https://drive.google.com/file/d/1MNwk9CGMCB-ZTeIqacwAsmcm--Svedwx/view?usp=sharing'}, 
+
+  { id: 21, type: 'Lifestyle', img: twentyone, alt: 'Prosthetics', title: 'The Development of Prosthetics', description: 'An overview of the advancements in prosthetic technology and their impact on users` lives.', demolink: 'https://drive.google.com/file/d/12lhym5pNx1DUqR8NcqzZmcKgo_Pi4nuY/view?usp=sharing'},
+
+  { id: 22, type: 'Lifestyle', img: twentytwo, alt: 'Netflix', title: 'Top 10 Netflix Horror Movies', description: 'A list of the top 10 horror movies available on Netflix.', demolink: 'https://drive.google.com/file/d/1Skal30I45xLn0dXRu9hjetfxWV1hU5ex/view?usp=sharing'},
+
+  { id: 23, type: 'Lifestyle', img: twentythree, alt: 'Myths', title: '10 Myths about American Comics', description: 'An exploration of common misconceptions about American comics.', demolink: 'https://drive.google.com/file/d/1skEB22fpFbZxgjB6TFokGTiPPQ1DIEO-/view?usp=sharing'},
+
+  { id: 24, type: 'Lifestyle', img: twentyfour, alt: 'Cartoons', title: 'Top 12 Cartoons for Adults ', description: 'A curated list of the best cartoons suitable for adult audiences.', demolink: 'https://drive.google.com/file/d/1MSQK3do_P6f1d35nHc59aBCnwm0-_D3u/view?usp=sharing'},
+
+
+
+  { id: 25, type: 'Celebrity', img: twentyfive, alt: 'Andrew Tate', title: 'Andrew Tate Net Worth Estimate 2022', description: 'An analysis of Andrew Tate`s net worth in 2022, including his sources of income and financial status.', demolink: 'https://drive.google.com/file/d/12IemvOiRX_rbwQIY1qz9XQmDkgwud11o/view?usp=sharing'},
+
+  { id: 26, type: 'Celebrity', img: twentysix, alt: 'Nelk Boys', title: 'Nelk Boys` Net Worth Estimate 2022', description: 'An analysis of Nelk Boys` net worth in 2022, including his sources of income and financial status.', demolink: 'https://drive.google.com/file/d/131CIbpA07rCNfExjOMCGsBcB_12v1_AR/view?usp=sharing'},
+
+  { id: 27, type: 'Celebrity', img: twentyseven, alt: 'Adin Ross', title: 'Adin Ross Net Worth Estimate 2022', description: 'An analysis of Adin Ross` net worth in 2022, including his sources of income and financial status.', demolink: 'https://drive.google.com/file/d/1Uwc65l9GUCVm6jRs5xcEsC13DXPWs8R2/view?usp=sharing'},
+
+
+
+  { id: 28, type: 'Travel', img: twentyeight, alt: 'UK', title: 'Traveling Around the UK: Pros and Cons', description: 'A look at the advantages and disadvantages of traveling around the UK.', demolink: 'https://drive.google.com/file/d/16OKabspK0JtnMj-ONskHfby_mb6PWjZi/view?usp=sharing'},
+
+  { id: 29, type: 'Travel', img: twentynine, alt: 'Africa', title: 'Best Countries to Visit in Africa', description: 'An overview of the top countries to visit in Africa for tourists.', demolink: 'https://drive.google.com/file/d/1fF1TW17I7gQA42vdOWEfbCh-_22cj1Sy/view?usp=sharing'},
+
+  { id: 30, type: 'Travel', img: thirty, alt: 'Nepal', title: 'Fun Things to Tryout in Nepal as A Tourist', description: 'A guide to the most exciting activities and experiences available for tourists in Nepal.', demolink: 'https://drive.google.com/file/d/10sSP5ZAEj3JBmviNw9fLb4N1FKTgHY8L/view?usp=sharing'},
+ 
 ];
+
 
 const PortfolioDesktop = () => {
 
@@ -114,7 +153,7 @@ const PortfolioDesktop = () => {
 
     <PortfolioWrapper>
 
-      <HeaderDesign title='WRITTEN SAMPLES'/>
+      <HeaderDesign title='SAMPLES'/>
 
       <Buttons>
 
@@ -127,29 +166,29 @@ const PortfolioDesktop = () => {
             onClick={() => setFilter('All')}
           >All</FilterButton>
           <FilterButton
-            active={filter === 'Casino'}
-            onClick={() => setFilter('Casino')}       
-          >Casino</FilterButton>
+            active={filter === 'iGaming'}
+            onClick={() => setFilter('iGaming')}       
+          >iGaming</FilterButton>
           <FilterButton
-            active={filter === 'Sportsbook'}
-            onClick={() => setFilter('Sportsbook')}        
-          >Sportsbook</FilterButton>
+            active={filter === 'Sports'}
+            onClick={() => setFilter('Sports')}       
+          >Sports</FilterButton>
           <FilterButton
-            active={filter === 'eSports'}
-            onClick={() => setFilter('eSports')}       
-          >eSports</FilterButton>
+            active={filter === 'MMA'}
+            onClick={() => setFilter('MMA')}       
+          >MMA</FilterButton>
           <FilterButton
-            active={filter === 'Football'}
-            onClick={() => setFilter('Football')}       
-          >Football</FilterButton>
+            active={filter === 'Lifestyle'}
+            onClick={() => setFilter('Lifestyle')}       
+          >Lifestyle</FilterButton>
           <FilterButton
-            active={filter === 'Crypto'}
-            onClick={() => setFilter('Crypto')}       
-          >Crypto</FilterButton>
+            active={filter === 'Celebrity'}
+            onClick={() => setFilter('Celebrity')}        
+          >Celebrity</FilterButton>
           <FilterButton
-            active={filter === 'Blog'}
-            onClick={() => setFilter('Blog')}        
-          >Blog</FilterButton>
+            active={filter === 'Travel'}
+            onClick={() => setFilter('Travel')}        
+          >Travel</FilterButton>
 
         </Filter>
           
