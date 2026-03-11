@@ -174,9 +174,9 @@ const PortfolioMobile = () => {
             onClick={() => setFilter('Sports')}       
           >Sports</FilterButton>
           <FilterButton
-            active={filter === 'MMA'}
-            onClick={() => setFilter('MMA')}       
-          >MMA</FilterButton>
+            active={filter === 'UFC & MMA'}
+            onClick={() => setFilter('UFC & MMA')}       
+          >UFC & MMA</FilterButton>
           <FilterButton
             active={filter === 'Lifestyle'}
             onClick={() => setFilter('Lifestyle')}       
