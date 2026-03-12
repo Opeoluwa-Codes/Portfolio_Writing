@@ -62,7 +62,7 @@ const HomeMobile = () => {
         <Others>
           <img src={Picture} alt="Opeoluwa" />
           <RoleDisplay>Writer and Editor</RoleDisplay>
-          <p>Versatile freelance content writer with 5+ years of experience crafting SEO-optimized articles across high-traffic niches, including iGaming, Sports & MMA, Food & Lifestyle, Travel, and Home & DIY.</p>
+          <p>I'm a freelance content writer with over 5 years of experience. I create SEO-optimized content across niches like iGaming, Sports, Food, Travel, and Home & DIY.</p>
           <StyledAnchor href='#about'><button>MORE ABOUT ME</button></StyledAnchor>
         </Others>
 

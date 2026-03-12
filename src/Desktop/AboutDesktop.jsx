@@ -59,7 +59,7 @@ const AboutDesktop = () => {
       <TandB>
         <TitleAndDescription>
           <h2>{displayedDescription}<Cursor>|</Cursor></h2>
-          <p>I'm a freelance content writer with 5+ years of experience creating SEO-driven articles across a range of niches — from iGaming and Sports to Food, Travel, and Home & DIY. I focus on writing content that's well-researched, easy to read, and built to perform. I work with tools like SurferSEO, Ahrefs, and WordPress, and I'm comfortable writing for audiences across global markets.</p>
+          <p>I'm a freelance content writer with 5+ years of experience. I write SEO-driven articles across niches like iGaming, Sports, Food, Travel, and Home & DIY. My content is well-researched, easy to read, and built to perform. I work with tools like SurferSEO, Ahrefs, and WordPress. I'm also comfortable writing for global audiences.</p>
         </TitleAndDescription>
         <BoxAndWhat>
           <BoxDisplay/>
