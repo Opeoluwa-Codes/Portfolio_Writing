@@ -62,7 +62,7 @@ const HomeMobile = () => {
         <Others>
           <img src={Picture} alt="Opeoluwa" />
           <RoleDisplay>Writer and Editor</RoleDisplay>
-          <p>I create expert iGaming reviews covering sportsbooks, casinos, games, and providers, plus engaging content on travel, sports, gaming, and cryptocurrency—blending technical expertise with storytelling to inform and captivate diverse audiences.</p>
+          <p>Versatile freelance content writer with 5+ years of experience crafting SEO-optimized articles across high-traffic niches, including iGaming, Sports & MMA, Food & Lifestyle, Travel, and Home & DIY.</p>
           <StyledAnchor href='#about'><button>MORE ABOUT ME</button></StyledAnchor>
         </Others>
 

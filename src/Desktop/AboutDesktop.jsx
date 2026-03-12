@@ -59,7 +59,7 @@ const AboutDesktop = () => {
       <TandB>
         <TitleAndDescription>
           <h2>{displayedDescription}<Cursor>|</Cursor></h2>
-          <p>Crafting authentic gambling content is my specialty. I deliver comprehensive casino and sportsbook reviews while efficiently multitasking. Using Grammarly and ZeroGPT, I ensure my work remains AI-free, providing readers with trustworthy, expert iGaming insights.</p>
+          <p>I'm a freelance content writer with 5+ years of experience creating SEO-driven articles across a range of niches — from iGaming and Sports to Food, Travel, and Home & DIY. I focus on writing content that's well-researched, easy to read, and built to perform. I work with tools like SurferSEO, Ahrefs, and WordPress, and I'm comfortable writing for audiences across global markets.</p>
         </TitleAndDescription>
         <BoxAndWhat>
           <BoxDisplay/>
