@@ -172,7 +172,7 @@ const PortfolioDesktop = () => {
           <FilterButton
             active={filter === 'eSports'}
             onClick={() => setFilter('eSports')}       
-          >eSports</FilterButton>\
+          >eSports</FilterButton>
           <FilterButton
             active={filter === 'Blog'}
             onClick={() => setFilter('Blog')}       
