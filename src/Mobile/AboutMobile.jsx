@@ -60,7 +60,7 @@ const AboutMobile = () => {
         <TitleAndDescription>
 
           <h2>{displayedDescription}<Cursor>|</Cursor></h2>
-          <p>I'm a freelance content writer with 5+ years of experience. I write SEO-driven articles across niches like iGaming, Sports, Food, Travel, and Home & DIY. My content is well-researched, easy to read, and built to perform. I work with tools like SurferSEO, Ahrefs, and WordPress. I'm also comfortable writing for global audiences.</p>
+          <p>Freelance Content Writer with 5+ years of experience. Specialized in iGaming and Football content. I write SEO-optimized articles, betting guides, and match previews. I cover industry news for high-traffic sites. Skilled in keyword research and editorial standards. My content ranks and converts. Proficient in SurferSEO, Ahrefs, and WordPress.</p>
 
           <BoxContainer>
 

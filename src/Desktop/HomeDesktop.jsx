@@ -64,7 +64,7 @@ const HomeDesktop = () => {
         <Others>
           <img src={Picture} alt="Opeoluwa" />
           <RoleDisplay>Writer and Editor</RoleDisplay>
-          <p>I'm a freelance content writer with over 5 years of experience. I create SEO-optimized content across niches like iGaming, Sports, Food, Travel, and Home & DIY.</p>
+          <p>Freelance Content Writer with 5+ years of experience. Specialized in iGaming and Football content.</p>
           <Links to='/about'><button>MORE ABOUT ME</button></Links>
         </Others>
       </LeftSide>

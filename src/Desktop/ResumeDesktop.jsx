@@ -16,7 +16,7 @@ const ResumeDesktop = () => {
             <h2>EDUCATION</h2>
               <Education>
 
-                <ResumeDisplay name='Canadore College' title='Journalism' description='' view='View' here='resume' link='https://drive.google.com/file/d/1d6aJjifmBZqabap5FjDeu4mcyDeFffus/view?usp=drive_link'/>
+                <ResumeDisplay name='Canadore College' title='PM-IT' description='' view='View' here='resume' link='https://drive.google.com/file/d/1j_m-JbXYg9A_hoKEpYvBZCX32sBH-gPI/view?usp=sharing'/>
 
               </Education>
           </One>
@@ -26,13 +26,18 @@ const ResumeDesktop = () => {
               <Experience>
 
                 <Cover>
-                  <ResumeDisplay name='Extremoo' title='Remote Freelance Writer (Independent Contractor)' view='Romania'/>
-                  <DialogueBox from='From: Mar 2026' to='To: Present' one='1. Write and edit iGaming content including reviews and guides for CasinoAlpha' two='2. Produce SEO-optimized casino articles across multiple markets' three='3. Maintain editorial standards for accuracy, tone, and compliance with regional gambling regulations'/>
+                  <ResumeDisplay name='VAVEL' title='Contributing Writer' view='United Kingdom'/>
+                  <DialogueBox from='From: Aug 2026' to='To: Present' one='1. Write and edit SEO-optimized football articles covering top European leagues' two='2. Research and fact-check content to maintain accuracy and editorial standards' three=''/>
                 </Cover>
 
                 <Cover>
-                  <ResumeDisplay name='Remote - Worldwide' title='Freelance Writer' view='Remote'/>
-                  <DialogueBox from='From: April 2021' to='To: Present' one='1. Deliver high-quality blog posts, reviews, guides, and editorial content for international clients across multiple niches, including iGaming, Sports & MMA, Food & Lifestyle, Travel, Home & DIY, News, and Cryptocurrency' two='2. Consistently maintain 5-star client satisfaction through clear communication, fast turnarounds, and research-driven writing' three='3. Adapt tone, style, and SEO approach to match each client`s brand voice and audience'/>
+                  <ResumeDisplay name='Extremoo' title='Remote Freelance Writer (Independent Contractor)' view='Romania'/>
+                  <DialogueBox from='From: Mar 2026' to='To: Aug 2026' one='1. Write and edit iGaming content, including reviews and guides' two='2. Produce SEO-optimized casino articles across multiple markets' three='3. Maintain editorial standards for accuracy, tone, and compliance with regional gambling regulations'/>
+                </Cover>
+
+                <Cover>
+                  <ResumeDisplay name='Upwork' title='Freelance Writer' view='Remote'/>
+                  <DialogueBox from='From: April 2021' to='To: Present' one='1. Deliver high-quality blog posts, reviews, guides, and editorial content' two='2. Consistently maintain 5-star client satisfaction through clear communication and fast turnarounds' three='3. Adapt tone, style, and SEO approach to match each client`s brand voice and audience'/>
                 </Cover>
 
               </Experience>
