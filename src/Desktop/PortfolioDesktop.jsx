@@ -26,7 +26,7 @@ import thirteen from '../../src/Assets/ART/13.png'
 import fourteen from '../../src/Assets/ART/14.png'
 import fifteen from '../../src/Assets/ART/15.png'
 
-import sixteen from '../../src/Assets/ART/16.jpg'
+import sixteen from '../../src/Assets/ART/16.png'
 import seventeen from '../../src/Assets/ART/17.png'
 import eighteen from '../../src/Assets/ART/18.png'
 import nineteen from '../../src/Assets/ART/19.png'
