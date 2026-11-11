@@ -15,11 +15,11 @@ const ContactMobile = () => {
       <MainSection>
 
         <Display>
-          <ContactTile icon={<Call/>} info="(+1) 683-882-1123" type="phone"/>
+          {/* <ContactTile icon={<Call/>} info="+1-683-882-1123" type="phone"/> */}
           
           {/* <ContactTile icon={<Twitter/>} info="@Happy_2_Code" type="twitter"/> */}
 
-          <ContactTile icon={<Gmail/>} info="opewrites24@gmail.com" type="email"/>
+          {/* <ContactTile icon={<Gmail/>} info="opewrites24@gmail.com" type="email"/> */}
         </Display>
 
       </MainSection>
